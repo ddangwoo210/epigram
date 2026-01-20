@@ -1,0 +1,96 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.label {
+  display: block;
+}
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: 8px;
+  background: #fff;
+  outline: none;
+  font-size: 14px;
+  color: #111827;
+}
+.input:focus {
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.08);
+  border-color: #3b82f6;
+}
+.pwToggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #9aa6b4;
+  font-size: 13px;
+  cursor: pointer;
+}
+.submit {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #cfd7e3; 
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submit:enabled {
+  background: #3b82f6; 
+}
+.submit:disabled {
+  opacity: 0.8;
+  cursor: default;
+}
+.error {
+  color: #dc2626;
+  font-size: 13px;
+}
+.row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  color: var(--muted, #7b8aa2);
+}
+.link {
+  color: #2563eb;
+  text-decoration: underline;
+  margin-left: 6px;
+}
+.sepRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+.sepLine {
+  height: 1px;
+  flex: 1;
+  background: rgba(15, 23, 42, 0.04);
+}
+.sepText {
+  font-size: 14px;
+  color: var(--muted, #9aa6b4);
+  padding: 0 8px;
+}
+.socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  justify-content: center;
+}
+.socialBtn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(15,23,42,0.06);
+  background: white;
+  cursor: pointer;
+}

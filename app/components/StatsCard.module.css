@@ -1,0 +1,4 @@
+.root { display:flex; gap:1.25rem; align-items:center; }
+.pie { width:11rem; height:11rem; border-radius:9999px; background:var(--card); display:flex; align-items:center; justify-content:center; font-size:2rem; }
+.label { font-size:0.875rem; color:var(--muted); }
+.value { font-size:1.5rem; font-weight:700; margin-top:0.5rem; }

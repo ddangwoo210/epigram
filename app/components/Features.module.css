@@ -1,0 +1,6 @@
+.features { display:grid; grid-template-columns:1fr; gap:2rem; align-items:start; }
+@media(min-width:768px){ .features { grid-template-columns:1fr 1fr; } }
+.cards { display:flex; flex-direction:column; gap:1rem; }
+.summary { display:flex; align-items:center; }
+.heading { font-size:1.125rem; margin:0; }
+.desc { margin-top:0.5rem; color:var(--muted); }
